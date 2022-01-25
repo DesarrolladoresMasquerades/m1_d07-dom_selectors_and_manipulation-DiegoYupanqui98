@@ -92,7 +92,7 @@ console.log(veggiesArray)
 // 10: Remove class 'veggie-item' from 'spinach'
 
 // ... your code here
-veggiesArray.forEach(veggie =>{ if(veggie.id=== "Spinach")
+veggiesArray.forEach(veggie =>{ if(veggie.idpgit=== "Spinach")
     veggie.classList.remove("veggie-item")})
 
     console.log(veggiesArray)

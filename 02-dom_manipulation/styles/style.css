@@ -1,0 +1,33 @@
+:root{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-title{
+    background-color: red;
+}
+
+.main_subtitle{
+    color: blue;
+}
+
+.clear-btn{
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+}
+
+.action-btn{
+    background-color: red;
+    border: none;
+    padding: 2% 5%;
+    border-radius: 5%;
+    cursor: pointer ;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: space-between;
+}
