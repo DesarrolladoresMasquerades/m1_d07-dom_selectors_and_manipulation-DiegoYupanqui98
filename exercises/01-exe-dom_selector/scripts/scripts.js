@@ -71,7 +71,7 @@ const veggiesUl = document.querySelector(".veggies");
 veggiesUl.classList.remove("veggies")
 console.log(veggiesUl)
 // => <ul>...</ul>
-// ----------------------------------------------
+// ---------------------------------------------
 
 // 9: Add a class 'veggie-love' to all the veggies
 
@@ -79,8 +79,8 @@ console.log(veggiesUl)
 
 const veggiesArray = document.querySelectorAll(".veggie-item")
 
-//veggiesArray.forEach(veggie => veggie.classList.add("veggie-love"))
-//console.log(veggiesArray)
+veggiesArray.forEach(veggie => veggie.classList.add("veggie-love"))
+console.log(veggiesArray)
 
 //veggiesArray.forEach(veggie => veggie.setAttribute("class","veggie-love"));
 //console.log(veggiesArray)
@@ -92,7 +92,7 @@ const veggiesArray = document.querySelectorAll(".veggie-item")
 // 10: Remove class 'veggie-item' from 'spinach'
 
 // ... your code here
-veggiesArray.forEach(veggie =>{ if(veggie.innerText === "Spinach")
+veggiesArray.forEach(veggie =>{ if(veggie.id=== "Spinach")
     veggie.classList.remove("veggie-item")})
 
     console.log(veggiesArray)
